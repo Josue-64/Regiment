@@ -9,9 +9,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-color: white;
+  background-color: #2d2d30;
 
-  color: #1e1b2e;
+  color: #d4d4d4;
 
   min-height: 100vh;
 }
@@ -31,7 +31,7 @@ a {
 
   padding: 20px 30px;
 
-  background-color: #dd840f;
+  background-color: #333333;
 }
 
 /* Logo text */
@@ -49,7 +49,7 @@ nav a {
 
 /* Nav link hover */
 nav a:hover {
-  color: #ffcc33;
+  color: #0e639c;
 }
 
 /* Main Content */
@@ -68,9 +68,9 @@ main {
 .hero {
   padding: 40px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   
 
   border-radius: 10px;
@@ -79,7 +79,7 @@ main {
 /* Hero title */
 .hero h1 {
   font-size: 32px;
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 15px;
 }
@@ -98,8 +98,8 @@ main {
 
   padding: 12px 24px;
 
-  background-color: #ffcc33;
-  color: #1e1b2e;
+  background-color: #0e639c;
+  color: #d4d4d4;
   font-weight: bold;
 
   border-radius: 5px;
@@ -107,7 +107,7 @@ main {
 
 /* Button hover */
 .button:hover {
-  background-color: #e6b800;
+  background-color: #1177bb;
 }
 
 /* Feature boxes */
@@ -128,23 +128,23 @@ main {
 
   padding: 20px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 }
 
 /* Feature title */
 .feature h2 {
   font-size: 18px;
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 10px;
 }
 
 /* Feature text */
 .feature p {
-  color: #6b6585;
+  color: #9da0a6;
   line-height: 1.5;
 }
 
@@ -153,14 +153,14 @@ main {
 /* Page title */
 .pageTitle {
   font-size: 32px;
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 15px;
 }
 
 /* Message under the title */
 .message {
-  color: #6b6585;
+  color: #9da0a6;
 
   min-height: 24px;
   margin-bottom: 15px;
@@ -180,16 +180,16 @@ main {
 
   padding: 20px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 }
 
 /* Box titles */
 .builderBox h2 {
   font-size: 18px;
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 10px;
 }
@@ -209,7 +209,7 @@ main {
 
   padding: 10px;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 5px;
 
   font-size: 14px;
@@ -233,9 +233,9 @@ main {
 
   padding: 10px;
 
-  background-color: white;
+  background-color: #2d2d30;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 5px;
 
   margin-bottom: 8px;
@@ -249,15 +249,15 @@ main {
 /* Muscle, machine, grip */
 .exerciseDetails {
   font-size: 13px;
-  color: #6b6585;
+  color: #9da0a6;
 }
 
 /* Add and Remove buttons */
 .smallBtn {
   padding: 6px 12px;
 
-  background-color: #ffcc33;
-  color: #1e1b2e;
+  background-color: #0e639c;
+  color: #d4d4d4;
   font-weight: bold;
 
   border: none;
@@ -268,12 +268,12 @@ main {
 
 /* Small button hover */
 .smallBtn:hover {
-  background-color: #e6b800;
+  background-color: #1177bb;
 }
 
 /* Remove button */
 .removeBtn {
-  background-color: #e3dcf5;
+  background-color: #3c3c3c;
 }
 
 /* Custom exercise title */
@@ -307,9 +307,9 @@ button.button {
 
   padding: 20px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 
   margin-bottom: 20px;
@@ -318,7 +318,7 @@ button.button {
 /* Share box title */
 .postBox h2 {
   font-size: 18px;
-  color: #db6724;
+  color: #569cd6;
 }
 
 /* Text boxes on this page */
@@ -328,7 +328,7 @@ button.button {
 
   padding: 10px;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 5px;
 
   font-size: 14px;
@@ -343,9 +343,9 @@ button.button {
 .post {
   padding: 20px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 
   margin-bottom: 20px;
@@ -379,7 +379,7 @@ button.button {
 /* Person's name */
 .postAuthor {
   font-weight: bold;
-  color: #db6724;
+  color: #569cd6;
 }
 
 /* Name hover */
@@ -390,7 +390,7 @@ button.button {
 /* How long ago */
 .postTime {
   font-size: 13px;
-  color: #6b6585;
+  color: #9da0a6;
 }
 
 /* Workout name */
@@ -410,21 +410,21 @@ button.button {
 
 /* Note under the exercises */
 .postNote {
-  color: #6b6585;
+  color: #9da0a6;
 
   margin-bottom: 10px;
 }
 
 /* Like button */
 .likeBtn {
-  background-color: white;
+  background-color: #2d2d30;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
 }
 
 /* Like button after liking */
 .likeBtn.liked {
-  background-color: #ffcc33;
+  background-color: #0e639c;
 }
 
 
@@ -434,7 +434,7 @@ button.button {
 .backLink {
   display: inline-block;
 
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 20px;
 }
@@ -448,9 +448,9 @@ button.button {
 
   padding: 30px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 
   margin-bottom: 20px;
@@ -465,7 +465,7 @@ button.button {
   justify-content: center;
   align-items: center;
 
-  background-color: #dd840f;
+  background-color: #333333;
   color: white;
   font-size: 48px;
   font-weight: bold;
@@ -481,7 +481,7 @@ button.button {
 
 /* @username */
 .profileHandle {
-  color: #6b6585;
+  color: #9da0a6;
 
   margin-bottom: 10px;
 }
@@ -509,9 +509,9 @@ button.button {
 
   padding: 15px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 
   text-align: center;
@@ -521,19 +521,19 @@ button.button {
 .statNumber {
   font-size: 28px;
   font-weight: bold;
-  color: #db6724;
+  color: #569cd6;
 }
 
 /* Words under the number */
 .statLabel {
   font-size: 13px;
-  color: #6b6585;
+  color: #9da0a6;
 }
 
 /* Section titles on the profile */
 .sectionTitle {
   font-size: 22px;
-  color: #db6724;
+  color: #569cd6;
 
   margin-bottom: 15px;
 }
@@ -554,9 +554,9 @@ button.button {
 
   padding: 20px;
 
-  background-color: #f7f5ff;
+  background-color: #252526;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 10px;
 }
 
@@ -591,7 +591,7 @@ button.button {
   justify-content: center;
   align-items: center;
 
-  color: #6b6585;
+  color: #9da0a6;
   font-weight: bold;
 
   border-radius: 10px;
@@ -624,7 +624,7 @@ button.button {
 /* Demo note under the sign in button */
 .loginHint {
   font-size: 13px;
-  color: #6b6585;
+  color: #9da0a6;
 }
 
 /* Log Workout Page */
@@ -633,9 +633,9 @@ button.button {
 .logRow {
   padding: 10px;
 
-  background-color: white;
+  background-color: #2d2d30;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 5px;
 
   margin-bottom: 8px;
@@ -659,7 +659,7 @@ button.button {
   display: block;
 
   font-size: 12px;
-  color: #6b6585;
+  color: #9da0a6;
 
   margin-bottom: 4px;
 }
@@ -677,9 +677,9 @@ button.button {
 .pastWorkout {
   padding: 12px;
 
-  background-color: white;
+  background-color: #2d2d30;
 
-  border: 1px solid #e3dcf5;
+  border: 1px solid #3c3c3c;
   border-radius: 5px;
 
   margin-bottom: 10px;
