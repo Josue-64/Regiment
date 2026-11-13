@@ -1,1 +1,12 @@
+# Packages: GitHub Actions installs these, so they never go in the repo
+node_modules/
+
+# Local settings can hold secrets (connection strings). Never commit them.
+local.settings.json
 .env
+.env.*
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
