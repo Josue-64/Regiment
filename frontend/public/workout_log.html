@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Log</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="home.html" class="logo">Workout <span>Tracker</span></a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="workout_builder.html">Build Workout</a>
+      <a href="workout_log.html">Workout Log</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1 class="pageTitle">Workout Log</h1>
+
+    <p id="message" class="message"></p>
+
+    <div class="builder">
+
+      <!-- Left side: log today's workout -->
+      <section class="builderBox">
+        <h2>Log a Workout</h2>
+        <select id="workoutSelect" aria-label="Choose a workout"></select>
+        <div id="logList"></div>
+        <button type="button" id="logBtn" class="button">Save log</button>
+      </section>
+
+      <!-- Right side: history -->
+      <section class="builderBox">
+        <h2>Past Workouts</h2>
+        <div id="pastList"></div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <script src="api.js"></script>
+  <script src="workout_log.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="home.html" class="logo">Workout <span>Tracker</span></a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="workout_builder.html">Build Workout</a>
+      <a href="workout_log.html">Workout Log</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="pageTitle">Community</h1>
+
+    <p id="message" class="message"></p>
+
+    <section class="postBox">
+      <h2>Share a Workout</h2>
+      <input type="text" id="shareTitle" placeholder="Workout name (ex: Leg Day)" aria-label="Workout name">
+      <input type="text" id="shareExercises" placeholder="Exercises, separated by commas" aria-label="Exercises">
+      <input type="text" id="shareNote" placeholder="Anything to add? (optional)" aria-label="Optional note">
+      <button type="button" id="shareBtn" class="button">Share</button>
+    </section>
+
+    <input type="text" id="searchBar" class="searchBar" placeholder="Search workouts or people..." aria-label="Search workouts or people">
+
+    <section id="feed" aria-label="Community workout posts"></section>
+  </main>
+
+  <script src="api.js"></script>
+  <script src="community.js"></script>
+
+</body>
+</html>

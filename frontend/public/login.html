@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="home.html" class="logo">Workout <span>Tracker</span></a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="workout_builder.html">Build Workout</a>
+      <a href="workout_log.html">Workout Log</a>
+      <a href="community.html">Community</a>
+      <a href="login.html">Sign In</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="postBox loginBox">
+      <h2 id="formTitle">Sign In</h2>
+
+      <input type="text" id="displayName" placeholder="Display name" aria-label="Display name" hidden>
+      <input type="text" id="username" placeholder="Username" aria-label="Username" autocomplete="username">
+      <input type="password" id="password" placeholder="Password (8+ characters)" aria-label="Password" autocomplete="current-password">
+
+      <button type="button" id="submitBtn" class="button loginBtn">Sign In</button>
+      <p id="message" class="loginHint"></p>
+      <button type="button" id="toggleBtn" class="linkBtn">No account? Create one</button>
+    </section>
+
+  </main>
+
+  <script>
+    // Self-check: shows script problems on the page instead of failing silently
+    (function () {
+      function show(t) { var m = document.getElementById('message'); if (m) { m.textContent = t; m.className = 'loginHint error'; } }
+      window.addEventListener('error', function (e) {
+        if (e.target && e.target.src) show('Could not load ' + e.target.src.split('/').pop() + ' (file missing or blocked).');
+        else show('Script error: ' + e.message);
+      }, true);
+      window.addEventListener('unhandledrejection', function (e) { show('Error: ' + ((e.reason && e.reason.message) || e.reason)); });
+    })();
+  </script>
+  <script src="api.js"></script>
+  <script src="login.js"></script>
+
+</body>
+</html>

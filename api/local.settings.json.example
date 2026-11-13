@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "SQL_CONNECTION_STRING": "Server=tcp:YOURSERVER.database.windows.net,1433;Database=workouttracker;User ID=YOURUSER;Password=YOURPASSWORD;Encrypt=true;",
+    "BLOB_CONNECTION_STRING": "<storage account connection string>",
+    "PHOTO_CONTAINER": "progress-photos",
+    "JWT_SECRET": "change-me-to-a-long-random-string"
+  },
+  "Host": { "CORS": "*" }
+}
